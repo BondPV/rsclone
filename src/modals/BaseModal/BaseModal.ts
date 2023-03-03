@@ -175,7 +175,7 @@ class BaseModal {
     const year = todayDate.getFullYear();
     const month = todayDate.getMonth() + 1;
     const day = todayDate.getDate();
-    const todayFullDate = `${year}-${month.toString().padStart(2, '0')}-${day}`;
+    const todayFullDate = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
 
     dateInput.value = todayFullDate;
 

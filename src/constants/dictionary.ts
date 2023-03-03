@@ -393,7 +393,7 @@ export const Dictionary: DictionaryLang = {
     updated: 'Daten aktualisiert',
     errorMessagePhone: 'Ungültiges Telefonnummernformat',
     passwordUpdated: 'Passwort geändert',
-    currencyListTitle: '',
+    currencyListTitle: 'Währungskurs',
     dateExpense: 'Datum',
     categoryExpense: 'Kategorie',
     amountExpense: 'Betrag',
@@ -404,6 +404,7 @@ export const Dictionary: DictionaryLang = {
     incomeListTitle: 'Einkommen',
     emptyIncomeList: 'In Ihrer Tabelle sind noch keine Einnahmen vorhanden.',
     totalBalance: 'Gesamtsaldo: ',
+    transactionTitle: 'Ausgaben',
   },
 };
 

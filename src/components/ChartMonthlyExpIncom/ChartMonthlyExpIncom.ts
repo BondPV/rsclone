@@ -182,7 +182,6 @@ class ChartMonthlyExpIncom {
 
   private async getExpenses(): Promise<IExpense[]> {
     const userToken = JSON.parse(localStorage.getItem(LocalStorageKey.auth) as string).token;
-    console.log(this.startDate)
     const params: IFilterParams = {
       startDate: this.startDate.toISOString().split('T')[0],
       endDate: this.endDate.toISOString().split('T')[0],
